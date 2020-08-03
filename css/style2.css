@@ -1,0 +1,94 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#showcase {
+  height: 510px;
+  background-color: #000000;
+  width: 100%;
+}
+#showcase h1 {
+  padding-top: 3rem;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5rem;
+  font-size: 5rem;
+}
+#showcase2 {
+  height: 670px;
+}
+#showcase2 h2 {
+  color: #000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 5rem;
+  padding-top: 4rem;
+}
+.article {
+  margin-left: 30%;
+  margin-top: 5%;
+  font-size: 18px;
+  color: #000;
+}
+.showcase3 {
+  height: 500px;
+  background: url(../img/coding.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+#showcase4 {
+  height: 400px;
+  padding: 1rem;
+}
+#showcase4 .vis {
+  height: 200px;
+  width: 400px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  float: right;
+}
+.vis h2 {
+  margin-left: 5px;
+}
+.vis p {
+  margin-left: 10px;
+  font-size: 17px;
+  color: #000;
+}
+#showcase4 .mis {
+  height: 200px;
+  width: 400px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin-top: 5%;
+}
+.mis h2 {
+  margin-left: 5px;
+}
+.mis p {
+  margin-left: 10px;
+  font-size: 17px;
+  color: #000;
+}
+#showcase5 {
+  height: 400px;
+}
+#showcase5 h1 {
+  color: #fff;
+  /* margin-bottom: 8px; */
+  display: inline-block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 1rem;
+  font-size: 3rem;
+  background-color: #000;
+}
+#showcase5 .tools {
+  height: 230px;
+  margin-left: 2.5rem;
+  background: url(../img/tools.PNG);
+  background-repeat: no-repeat;
+}

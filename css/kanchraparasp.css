@@ -1,0 +1,202 @@
+body {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.kanchraparaspecialist {
+  background-image: url("../img/kanchrapara1.jpg");
+  margin-top: -3.5rem;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.kanchraparaspecialist h1 {
+  padding-top: 3rem;
+  color: rgb(121, 38, 17);
+  font-family: "Arial Narrow", "Bold";
+  margin-left: 5rem;
+  font-size: 5rem;
+}
+
+.para {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  padding-top: 0.6rem;
+  background-color: white;
+  height: 251px;
+}
+
+.para1 {
+  background-image: url("../img/kanchrapara2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 1rem;
+  margin: 20px 0;
+  margin-left: 30rem;
+  border-radius: 50% / 10%;
+  float: left;
+  padding: 1%;
+  width: 370px;
+  height: 250px;
+  border: solid black;
+  text-align: center;
+  text-indent: 0.1em;
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.para1:hover {
+  -webkit-filter: brightness(100%);
+}
+
+.para1 h1 {
+  font-family: "Comic Sans MS", "Bold";
+  color: rgb(9, 38, 77);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.box {
+  height: 50px;
+  margin-top: 8rem;
+  background-color: rgb(13, 110, 134);
+}
+
+.box h1 {
+  padding-top: 10px;
+  padding-left: 36rem;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: "Arial Narrow", "Bold";
+  color: #fff;
+}
+
+.img1 {
+  transition: 1s ease;
+  margin-left: 0.6rem;
+  float: left;
+  background-image: url("../img/hospital7.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img1:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.img2 {
+  transition: 1s ease;
+  margin-left: 1rem;
+  float: left;
+  background-image: url("../img/hospital8.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img2:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.img3 {
+  transition: 1s ease;
+  margin-left: 1rem;
+  float: left;
+  background-image: url("../img/hospital9.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img3:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.img4 {
+  transition: 1s ease;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+  float: left;
+  background-image: url("../img/hospital10.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img4:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.img5 {
+  transition: 1s ease;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  float: left;
+  background-image: url("../img/hospital11.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img5:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.img6 {
+  transition: 1s ease;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  float: left;
+  background-image: url("../img/hospital12.jpg");
+  background-size: cover;
+  padding: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.img6:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+.gallary {
+  margin-top: 3rem;
+  margin-bottom: -4rem;
+  padding-top: 0.6rem;
+  background-color: white;
+  height: 500px;
+}

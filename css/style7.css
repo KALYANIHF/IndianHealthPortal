@@ -1,0 +1,260 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #showcase {
+    height: 510px;
+    background: url(../img/h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0%;
+    
+  }
+  #showcase h1 {
+    padding-top: 5rem;
+    color: #702b2b;
+    font-family: "Bell MT", "Arial Narrow", Arial, sans-serif;
+    margin-left: 31rem;
+    font-size: 5rem;
+   
+  }
+  #contact-section h2{
+    padding-top: 7rem;
+    font-size: 3rem;
+    color: #4e8fda;
+    font-family: "Bahnschrift ", "Arial Narrow", sans-serif;
+    margin-left: 27rem;
+  }
+  #contact-section p1{
+   margin-left: auto; 
+    color: #141413;
+    font-family: "Cambria Math ",Arial, sans-serif;
+    margin-left: 10rem; 
+  }
+
+  
+  #contact-section .contact-info p {
+    color: #e22525; }
+    
+#contact-section .box {
+  
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+  @media (max-width: 991.98px) {
+    #contact-section .box {
+      margin-bottom: 30px; } }
+  #contact-section .box .icon {
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+    #contact-section .box .icon span  {
+      color: #576dec;
+      font-size: 32px; }
+  #contact-section .box h3 {
+    font-size: 17px;
+    height: 50px;
+    color: #121213;
+    font-family: "Bahnschrift ", "Arial Narrow", sans-serif;
+    text-transform: uppercase; 
+  }
+  #contact-section .box p {
+    
+   margin-left: auto; 
+   color: #141413;
+   font-family: "Cambria Math ",Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase; 
+
+  }
+
+#contact-section .contact-form {
+  width: 80%; 
+  background: rgb(243, 200, 200);
+  margin-left: 350px; 
+  /*text-align: center;*/
+
+}
+#contact-section .contact-form .button{
+  background-color: #008CBA;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin: 4px 2px;
+}
+
+#showcase1 {
+  height: 510px;
+  background: url(../img/s.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0%;
+  
+}
+#showcase1 h1 {
+  padding-top: 5rem;
+  color: #111111;
+  font-family: "Bell MT", "Arial Narrow", Arial, sans-serif;
+  margin-left: 51rem;
+  font-size: 5rem;
+}
+
+#showcase1 .sty { 
+  width: 50%; 
+  background: rgb(18, 168, 143);
+  margin-left: 150px; 
+  text-align: center;
+}
+#showcase1 .sty h2 {
+  color: #110d1da6;
+  font-family: "Comic Sans MS", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#showcase1 .sty p {
+  color: #1b0431a6;
+  font-family:  "Bahnschrift","Arial Narrow", Arial;
+  font-size: 120%;
+}
+#showcase2 {
+    padding-top: 2rem;
+    height: 370px;
+    background: #d1b8b4a6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0%;
+}
+
+#showcase2 .c-block{
+  background: #d4513da6;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+}
+
+#showcase2 .c-block p{
+  padding-top: 1rem;
+  margin-left: 2rem;
+  color: #000000a6;
+  font-family: "Arial Black", "Arial Narrow", Arial, sans-serif;
+}  
+#showcase2 .c-block ul{
+  padding-inline: 4rem;
+}
+
+#showcase2 .c-block li{
+  margin-left: auto;
+  color: #000000a6;
+  font-family:  "Arial Narrow", Arial, sans-serif;
+  font-size: 120%;
+}  
+#showcase2 .section{
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ #showcase2 .section h2{
+  color: #0b0325a6;
+  font-family: "Comic Sans MS", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+ }
+ #showcase2 .section p{
+   padding-top: 1rem;
+   font-family: "Bahnschrift","Arial Narrow", Arial;
+ }
+ 
+#showcase3 {
+  padding-top: 1rem;
+  height: 670px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0%;
+  padding-bottom: 0rem;
+}
+ #showcase3 .section2 h2{
+  padding-top: 1rem;
+   font-family: "Comic Sans MS", 'Arial Narrow', Arial, sans-serif;
+   margin-left:20rem;
+   padding-bottom: 2rem;
+ }
+ #showcase3 .c-block1{
+   background-color: rgb(233, 228, 167);
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   width: auto;
+ }
+#showcase3 .c-block1 p{
+  padding-top: 1rem;
+   font-family: "Cambria Math","Arial Narrow", Arial;
+ margin-left: 2rem;
+ margin-right: 1rem;
+ font-size: 110%;
+}
+#showcase3 .c-block1 p1{
+  font-size: 120%;
+  margin-left: 2rem;
+}
+#showcase3 .c-block2{
+  background-color: rgb(166, 226, 193);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 32rem;
+  width: auto;
+}
+#showcase3 .c-block2 p1{
+  font-size: 120%;
+  margin-left: 2rem;
+}
+#showcase3 .c-block2 li{
+  padding-top: 1rem;
+   font-family: "Cambria Math","Arial Narrow", Arial;
+ margin-left: 1rem;
+ margin-right: 1rem;
+ font-size: 110%;
+}
+#showcase3 .c-block2 p{
+  margin-left: 2rem;
+}
+#showcase4 {
+  padding-top: 2rem;
+  height: 670px;
+  background: #ffbc04fd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0%;
+}
+#showcase4 .section3 h2{
+ padding-top: 1rem;
+  font-family: "Comic Sans MS", 'Arial Narrow', Arial, sans-serif;
+  margin-left:12rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+#showcase4 .section3 p{
+  font-size: 120%;
+  margin-left: auto;
+  font-family: "Bahnschrift","Arial Narrow", Arial;
+}
+#showcase4 .section3 li{
+  font-size: 120%;
+  margin-left: auto;
+  font-family: "Bahnschrift","Arial Narrow", Arial;
+  
+}

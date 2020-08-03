@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+.branding {
+  height: 100vh;
+  background: url("../img/hospitallist.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.branding h1 {
+  color: #fff;
+  position: relative;
+  top: 45%;
+  left: 35%;
+  transform: translate(-35%, -50%);
+  font-family: "Acme", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 4.5rem;
+  font-style: oblique;
+}
+.branding h2 {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  left: 35%;
+  transform: translate(-35%, -50%);
+  font-size: 2.5rem;
+  letter-spacing: 0.6rem;
+  font-style: italic;
+  font-family: "Acme", sans-serif;
+}
+.select-hos {
+  height: 9vh;
+  background-color: darkslategray;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+.select-hos h1 {
+  color: #fff;
+  font-style: oblique;
+  text-transform: capitalize;
+}
+.section2 {
+  height: 240vh;
+  display: flex;
+  flex-direction: column;
+}
+.section2 .location1 {
+  height: 28vh;
+  width: 95%;
+  margin: auto;
+  margin-top: 0.3rem;
+  display: flex;
+  border: 1px solid red;
+  flex-direction: row;
+}
+.location1 .one {
+  height: 28vh;
+  width: 50%;
+  /* border: 1px solid red; */
+  margin: 4px;
+  display: flex;
+}
+.one .col {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
+.col h2 {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+.col h6 {
+  font-style: italic;
+  font-size: 1rem;
+}
+.one .col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8 {
+  width: 40%;
+  height: 80%;
+  float: left;
+}
+.col1 {
+  background: url("../img/jnm.jpg") center/cover no-repeat;
+}
+.col2 {
+  background: url("../img/kalyanigandhi.jpg") center/cover no-repeat;
+}
+.col3 {
+  background: url("../img/kalyaniesi.jpeg") center/cover no-repeat;
+}
+.col4 {
+  background: url("../img/railwayhospital.png") center/cover no-repeat;
+}
+.col5 {
+  background: url("../img/bphc.jpg") center/cover no-repeat;
+}
+.col6 {
+  background: url("../img/nrs.jpg") center/cover no-repeat;
+}
+.col7 {
+  background: url("../img/sskm.jpg") center/cover no-repeat;
+}
+.col8 {
+  background: url("../img/bmrc.jpg") center/cover no-repeat;
+}
+.location1 .two {
+  height: 28vh;
+  width: 50%;
+  /* border: 1px solid red; */
+  margin: 4px;
+}
+.two {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.two h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.bfoo {
+  min-height: 40vh;
+  background-color: #000000;
+}
+.bfoo h3 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.bfoo h5 {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  line-height: 2rem;
+  /* margin-left: 1.5rem; */
+}
+.col-sm-6 ul {
+  list-style-type: none;
+}
+.col-sm-6 ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+  font-style: italic;
+}
+.col-sm-6 ul li a:hover {
+  color: crimson;
+}
+@media screen and (max-width: 768px) {
+  .branding h1 {
+    font-size: 3.5rem;
+    top: 40%;
+  }
+  .branding h2 {
+    font-size: 1.8rem;
+    top: 40%;
+  }
+  .branding span {
+    display: block;
+  }
+  .select-hos {
+    height: 7vh;
+  }
+  .select-hos h1 {
+    font-size: 1.1rem;
+  }
+  .col h2 {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  .col h6 {
+    font-style: italic;
+    font-size: 0.5rem;
+  }
+  .two h3 {
+    font-size: 1.5rem;
+  }
+  .btn-primary {
+    font-size: 0.8rem;
+    padding: 4px 12px;
+  }
+  .bfoo h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  .bfoo h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 1rem;
+    font-size: 12px;
+    /* margin-left: 1.5rem; */
+  }
+  .col-sm-6 ul li a {
+    font-size: 12px;
+  }
+}

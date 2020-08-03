@@ -1,0 +1,717 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.container h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: monospace;
+  font-weight: initial;
+  z-index: 1;
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 5px;
+}
+.fullscreen-video-wrap {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.fullscreen-video-wrap video {
+  min-height: 100%;
+  min-width: 100%;
+}
+@media (max-width: 960px) {
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+.two {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 100px;
+}
+.two h1 {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  letter-spacing: 4px;
+}
+.bigbox {
+  height: 1600px;
+  width: 1200px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+}
+.bigbox .one1 {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  height: 380px;
+  width: 1100px;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: row;
+}
+.one1 #two1 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two2 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two3 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two4 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two5 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two6 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two7 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+.one1 #two8 {
+  margin-top: 0px;
+  margin-left: 1rem;
+  width: 520px;
+}
+#two1 .circular {
+  margin-top: 2rem;
+  margin-left: 14rem;
+  width: 100px;
+  height: 100px;
+}
+#two1 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 11rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two1 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two2 .circular {
+  margin-top: 2rem;
+  margin-left: 14rem;
+  width: 100px;
+  height: 100px;
+}
+#two2 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 11rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two2 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two3 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two3 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 10rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two3 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two4 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two4 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 9rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two4 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two5 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two5 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 6rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two5 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two6 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two6 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 8rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two6 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two7 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two8 .circular {
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: 100px;
+  height: 100px;
+}
+#two7 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 9rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two7 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#two8 h1 {
+  color: red;
+  margin-top: 0rem;
+  margin-left: 11rem;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#two8 h2 {
+  color: black;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.rectangle {
+  height: 80px;
+  margin-top: 3rem;
+}
+.rectangle h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  margin-left: 14rem;
+  color: blue;
+  letter-spacing: 4px;
+  -webkit-animation: flash linear 3s infinite;
+  animation: flash linear 3s infinite;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.boxavalue {
+  height: 600px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.boxavalue #flex1 {
+  width: 800px;
+  background-image: url(../img/sp1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.boxavalue #flex2 {
+  width: 800px;
+}
+
+input[type="text"],
+option,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  margin-top: 1rem;
+  margin-left: 21rem;
+  background: linear-gradient(to right, #9900cc 38%, #33ccff 100%);
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background: green;
+}
+.con {
+  margin-left: 0rem;
+  margin-top: 0rem;
+  background-color: white;
+  height: 600px;
+}
+
+.col-75 {
+  margin-left: 13rem;
+  width: 60%;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.sq1 {
+  margin-top: 4rem;
+  height: 100px;
+}
+.sq1 h1 {
+  padding-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-family: OCR A Std, monospace;
+  font-weight: 600;
+  color: brown;
+}
+.bigguy {
+  height: 500px;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.bigguy .three {
+  height: 240px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.bigguy .four {
+  height: 240px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.three #on {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#on .box5 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#on h1 {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#on:hover {
+  background-color: gray;
+}
+#on:hover h1 {
+  color: white;
+}
+.three #to {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#to .box6 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#to h1 {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#to:hover {
+  background-color: gray;
+}
+#to:hover h1 {
+  color: white;
+}
+.three #th {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#th .box7 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#th h1 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#th:hover {
+  background-color: gray;
+}
+
+#th:hover h1 {
+  color: white;
+}
+.three #fo {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#fo .box8 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#fo h1 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#fo:hover {
+  background-color: gray;
+}
+#fo:hover h1 {
+  color: white;
+}
+.four #on1 {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#on1 h1 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#on1 .box9 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#on1:hover {
+  background-color: gray;
+}
+#on1:hover h1 {
+  color: white;
+}
+.four #to1 {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#to1 h1 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#to1 .box10 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#to1:hover {
+  background-color: gray;
+}
+#to1:hover h1 {
+  color: white;
+}
+.four #th1 {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#th1 h1 {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#th1 .box11 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#th1:hover {
+  background-color: gray;
+}
+#th1:hover h1 {
+  color: white;
+}
+
+.four #fo1 {
+  width: 400px;
+  border: 1px solid green;
+  margin-left: 10px;
+  background-color: #f8fcff;
+  border-radius: 15%;
+}
+#fo1 .box12 {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 80px;
+  width: 120px;
+}
+#fo1 h1 {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  color: black;
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: 600;
+}
+#fo1:hover {
+  background-color: gray;
+}
+#fo1:hover h1 {
+  color: white;
+}
+.bfoot {
+  height: 400px;
+  margin-top: 6rem;
+  background-color: black;
+}
+
+.bfoot .fbox {
+  height: 100px;
+  background-color: black;
+}
+.fbox h1 {
+  font-size: 60px;
+  font-family: Lucidatypewriter, monospace;
+  font-weight: 300;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+.bfoot .fbox1 {
+  margin-top: 1rem;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.fbox1 #t1 {
+  width: 48%;
+  margin-left: 1rem;
+  letter-spacing: 3px;
+}
+#t1 h3 {
+  font-size: 20px;
+  font-family: New Century Schoolbook, serif;
+  font-weight: 200;
+  color: red;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+.fbox1 #t2 {
+  width: 48%;
+  margin-left: 1rem;
+}
+.bfoot .fbox3 {
+  height: 50px;
+  background-color: black;
+}
+.fbox3 h2 {
+  font-size: 20px;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  font-weight: 300;
+  color: white;
+  padding-top: 1rem;
+  margin-left: 26rem;
+}
+#t2 h1 {
+  margin-left: 25rem;
+  margin-top: 0rem;
+  color: blue;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#t2 h4 {
+  margin-left: 20rem;
+  margin-top: 2rem;
+  color: #696969;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

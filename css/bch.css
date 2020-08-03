@@ -1,0 +1,299 @@
+body {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.bch{
+    background-image: url("../img/depertment5.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .heading{
+      margin-top: 4rem;
+      margin-left: 3rem;
+      float: left; 
+      padding : 1%; 
+      height: 40%;
+      width: 30%; 
+      background-color: rgb(21, 119, 46);
+      transition: 1s ease;
+      border:3px solid #026924;
+  }
+  
+  .heading:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+  
+  .heading h1{
+    margin-top: 3rem;
+    font-family:"Comic Sans MS","Bold";
+      color: #fff;
+      text-align: center;
+  }
+  
+  
+  .depertment{
+    margin-top: 3rem;
+      margin-bottom: 4rem;
+      padding-top: 0.6rem;
+      background-color: white;
+      height: 900px; 
+  }
+  
+  .gynecologist{
+    margin-left: 0.8rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+  }
+  
+  .gynecologist:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .gynecologist h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: #8b0000;
+    font-size: 30px;
+  }
+  
+  .gynecologist p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .ent{
+    margin-left: 1rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+  }
+  
+  .ent:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .ent h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: #8b0000;
+    font-size: 30px;
+  }
+  
+  
+  .ent p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .orthopedic{
+    margin-left: 1rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+  }
+  
+  .orthopedic:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .orthopedic h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: #8b0000;
+    font-size: 30px;
+  }
+  
+  
+  .orthopedic p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .emergency{
+    margin-left: 0.8rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+  }
+  
+  .emergency:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .emergency h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color:#8b0000;
+    font-size: 30px;
+  }
+  
+  
+  .emergency p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .surgery{
+    margin-left: 1rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+  }
+  
+  .surgery:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .surgery h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: #8b0000;
+    font-size: 30px;
+  }
+  
+  
+  .surgery p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .cardiologist{
+    margin-left: 1rem; 
+    padding : 0.7%; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left; 
+    background-color: #deb887;
+    height: 45%;
+    width: 30%; 
+    border:3px solid #bc8f8f;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+  }
+  
+  .cardiologist:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+  
+  .cardiologist h2{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: #8b0000;
+    font-size: 30px;
+  }
+  
+  
+  .cardiologist p{
+    font-family:"Arial Narrow","Bold";
+    margin-left: 1rem;
+    color: black;
+    font-size: 27px;
+  }
+  
+  .bchfooter{
+    background-image: url("../img/depertmentfooter5.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bchfooter h1{
+    font-family:"Comic Sans MS";
+    text-align: center;
+    color: rgb(59, 27, 100);
+    font-size: 37px;
+  }
+  
+  .bchfooter h3{
+    font-family:"Comic Sans MS";
+    text-align: center;
+    color: rgb(36, 29, 105);
+    font-size: 30px;
+  }

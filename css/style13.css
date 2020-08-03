@@ -1,0 +1,325 @@
+body {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.banner {
+  margin-top: 0rem;
+  background: url(../img/g&ho3.jpg);
+  height: 500px;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner h1 {
+  margin-top: 9rem;
+  padding-left: 2rem;
+  color: black;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-shadow: 0 1px 0 gray, 0 2px 0 gray,
+             0 3px 0 grey, 0 4px 0 grey,
+             0 5px 0 gainsboro, 0 6px 0 gainsboro,
+             0 7px 0 gainsboro, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bannerfooter {
+  margin-top: -1rem;
+  background: url(../img/overlay.jpg);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.rectangle {
+  margin-top: 4rem;
+  height: 100px;
+  width: 1300px;
+}
+.rectangle h1 {
+  margin-top: 1rem;
+  margin-left: 29rem;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.box {
+  margin-top: 3rem;
+  margin-left: 0rem;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box #value1,
+#value2,
+#value3,
+#value4 {
+  height: 300px;
+  width: 200px;
+  padding: 40px;
+  margin: 40px;
+  margin-top: 0rem;
+  margin-left: 70px;
+  
+  
+}
+#value1 {
+background-image: url("../img/donner1.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#value2 {
+  background-image: url("../img/donner2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#value3 {
+  background-image: url("../img/donner3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#value4 {
+  background-image: url("../img/donner4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  margin-top: 0rem;
+  margin-left: 0rem;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.heading #heading1,
+#heading2,
+#heading3,
+#heading4 {
+  height: 100px;
+  width: 200px;
+  padding: 40px;
+  margin: 40px;
+  margin-top: 0rem;
+  margin-left: 70px;
+}
+
+#heading1 h3{
+  margin-top: 0rem;
+  padding-left: 1rem;
+  font-size:18px ;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading1:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+#heading2 h3{
+  margin-top: 0rem;
+  padding-left: 1rem;
+  font-size:18px ;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading2:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+#heading3 h3{
+  margin-top: 0rem;
+  padding-left: 1rem;
+  font-size:18px ;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading3:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+#heading4 h3{
+  margin-top: 0rem;
+  padding-left: 1rem;
+  font-size:18px ;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading4:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.banner2{
+  margin-top: 2rem;
+  background: url(../img/container.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.color-overlay{
+  height: 400px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  opacity: .7;
+}
+
+.color-overlay h1{
+  padding-top: 6rem;
+  padding-left: 5rem;
+  color: #fff;
+  font-size: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.color-overlay h2{
+  padding-top: 0rem;
+  padding-left: 17rem;
+  color: #fff;
+  font-size: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box1{
+  margin-top: 8rem;
+  margin-left: 0rem;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+ .img{
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: -1rem;
+  background: url(../img/cm.jpg);
+  height: 350px;
+  width:30%;
+  box-shadow: 5px 10px 8px 10px #888888;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+ .para{
+  margin-left: 0rem;
+  height: 400px;
+  width:50%;
+  border-right: 4px solid gray;
+  border-bottom: 4px solid gray;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.para p{
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  font-style: italic;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.box2{
+  margin-top: 8rem;
+  margin-left: 0rem;
+  height: 400px;
+  width: 100%;
+  /* background: url(../img/container2.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.color-overlay2{
+  height: 400px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  opacity: .7;
+}
+
+.alpha{
+  margin-left: 0rem;
+  height: 350px;
+  width:40%;
+}
+
+.alpha h2{
+  color: white;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.alpha p{
+  padding-top: 1rem;
+  padding-left: 4.5rem;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+.beta{
+  margin-left: 0rem;
+  height: 350px;
+  width:40%;
+}
+
+.beta h2{
+  color: white;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+
+.beta p{
+  color: white;
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.gama{
+  margin-left: 0rem;
+  height: 350px;
+  width:40%;
+}
+
+.gama h2{
+  color: white;
+  padding-top: 5rem;
+  padding-left: 6rem;
+  font-family: "Times New Roman", Times, serif;
+}
+

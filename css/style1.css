@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.showcase1 {
+  height: 600px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("../img/trolli.PNG");
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mass {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+.mass p {
+  font-family: "Bangers", cursive;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.mass h3 {
+  font-family: "Bangers", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.showcase2 {
+  height: 600px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("../img/medicine.PNG");
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mass1 {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  font-style: italic;
+}
+.mass1 h2 {
+  font-family: "Bangers", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.mass1 h4 {
+  font-family: "Bangers", cursive;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.showcase3 {
+  height: 70vh;
+  width: 100%;
+}
+.showcase3 h1 {
+  font-family: "Bangers", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+}
+.case3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 8px;
+}
+.case3 > div {
+  height: 55vh;
+}
+#one {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 4px;
+}
+#one > div {
+  height: 26vh;
+  align-self: center;
+}
+#two {
+  background-image: url("../img/doc.PNG");
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#three {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 4px;
+}
+#three > div {
+  height: 26vh;
+  align-self: center;
+}
+.value {
+  text-align: center;
+}
+.value i {
+  position: relative;
+  top: 5%;
+}
+.value h2 {
+  font-size: 2rem;
+  font-family: "Bangers", cursive;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+}
+.fa-prescription-bottle-alt,
+.fa-comment-medical,
+.fa-calendar-check,
+.fa-newspaper {
+  font-size: 5rem;
+  color: #ff0000;
+}
+.value:hover {
+  background-color: royalblue;
+  color: #fff;
+}
+.showcase4 {
+  height: 79vh;
+}
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 400;
+  font-family: "Bangers", cursive;
+  letter-spacing: 4px;
+}
+.foot {
+  height: 50vh;
+  background: url(../img/water.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-family: "Bangers", cursive;
+}
+.col-sm-6 ul {
+  list-style-type: none;
+}
+.col-sm-6 li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 20px;
+}
+.foot .content-fix {
+  padding-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .showcase4 .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+  .showcase1 {
+  
+  background-position: center;
+  background-size:100% 100%;
+}
+.showcase2 {
+  background-position: center;
+  background-size:100% 100%;
+  
+}
+  .showcase4 {
+    height: 39vh;
+  }
+  .mass1 {
+    left: 50%;
+  }
+  .mass1 h2{
+      color:#f00;
+  }
+  .mass1 h4{
+      color:#f00;
+  }
+  .mass p{
+      color:#f00;
+  }
+  .mass h3{
+      color:#f00;
+  }
+  .foot{
+      height:55vh;
+  }
+.col-sm-6 li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 13px;
+}
+.foot .content-fix {
+  padding-top: 0.8rem;
+}
+  .foot .content-fix {
+  padding-top: 0rem;
+}
+}

@@ -1,0 +1,743 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.bigbox1 {
+  background: url(../img/healthy1.jpg);
+  height: 100vh;
+  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.square h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: Monospace;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  transform: translate(-50%, -50%);
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+#flag {
+  margin-top: -2rem;
+  width: 800px;
+  height: 100px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background-color: #ff3f34;
+}
+#flag h2 {
+  margin-left: 3rem;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+#flag .rec {
+  height: 60px;
+  width: 200px;
+  margin-top: -3rem;
+  margin-left: 35rem;
+  background-color: #fbb124;
+}
+.rec h3 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+.smallbox {
+  max-height: 20vh;
+  width: 100%;
+  margin-top: 4rem;
+}
+.smallbox h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Arial, sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: black;
+  font-weight: 800;
+}
+.smallbox1 {
+  max-height: 25vh;
+  width: 100%;
+  margin-top: 1rem;
+}
+.smallbox1 h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808080;
+  letter-spacing: 1px;
+}
+.flexbox1 {
+  max-height: 25vh;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.flexbox1 .fbox {
+  width: 33.3%;
+}
+.fbox .smb {
+  text-align: center;
+  height: 20vh;
+  /* width: 150px; */
+}
+.fbox .smb1 {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  height: 60px;
+  width: 150px;
+}
+.smb1 h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Lucidatypewriter, monospace;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.fbox h3 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808080;
+  letter-spacing: 1px;
+}
+.imagebanner {
+  height: 400px;
+  margin-top: 5rem;
+  background: url(../img/healthy2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.imagebanner h1 {
+  padding-top: 10rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: Palatino, serif;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.fitbox {
+  margin-top: 0.5rem;
+  height: 60px;
+}
+.fitbox h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  color: brown;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.flexbox2 {
+  min-height: 100vh;
+  width: 100%;
+}
+.flexbox2 .s1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 28vh;
+  margin: 1rem;
+  /* margin-top: 0.5rem; */
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.s1 .ss1 {
+  width: 50%;
+  min-height: 25vh;
+  /* border: 1px solid #000000; */
+  display: flex;
+  margin: 1.5rem;
+  flex-direction: row;
+  box-shadow: 4px 6px;
+}
+.ss1 .ib1 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/Sit-Up.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .one {
+  float: left;
+  width: 65%;
+  height: 100%;
+  margin: 4px;
+  position: relative;
+}
+.one h2 {
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  font-family: Lucidatypewriter, monospace;
+  text-transform: capitalize;
+  transform: translate(-10%, -10%);
+}
+.ss1 .ib2 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/Pushups.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .ib3 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/Lunges.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ss1 .ib4 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/Dumbbellrows.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .ib5 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/squats.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .ib6 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/single-led-deadlift.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .ib7 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/burpees.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 .ib8 {
+  height: 100%;
+  width: 30%;
+  background: url(../img/dumbell-press.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ss1 h1 {
+  margin-top: -4rem;
+  margin-left: 35rem;
+  font-size: 3rem;
+  font-family: New Century Schoolbook, serif;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+.imgban {
+  margin-top: 2rem;
+  min-height: 40vh;
+  background: url(../img/healthy3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.imgban h1 {
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: Bookman, serif;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: "Bangers", cursive;
+}
+.sbbx {
+  margin-top: 2rem;
+  height: 6vh;
+  width: 25%;
+  margin: auto;
+  background-color: black;
+}
+.sbbx h2 {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Bangers", cursive;
+}
+.sbbx:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.sbbx:hover h2 {
+  color: black;
+}
+.flexbox3 {
+  margin-top: 3rem;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.flexbox3 .susu1 {
+  margin-left: 1rem;
+  width: 22.5%;
+  border: 1px solid black;
+  background: url(../img/x1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.flexbox3 .susu2 {
+  margin-left: 1rem;
+  width: 22.5%;
+  border: 1px solid black;
+  background: url(../img/x2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.flexbox3 .susu3 {
+  margin-left: 1rem;
+  width: 22.5%;
+  border: 1px solid black;
+  background: url(../img/x3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.flexbox3 .susu4 {
+  margin-left: 1rem;
+  width: 22.5%;
+  border: 1px solid black;
+  background: url(../img/x4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.cbox {
+  position: relative;
+  top: 2rem;
+  height: 80px;
+  width: 25%;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5rem;
+}
+.cbox h6 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Bookman, serif;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  margin: auto;
+  background: linear-gradient(to right, #9900cc 38%, #33ccff 100%);
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background: black;
+}
+
+.conton {
+  position: relative;
+  top: 3rem;
+  border-radius: 5px;
+  min-height: 60vh;
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+}
+.bfoo {
+  min-height: 40vh;
+  background-color: #000000;
+}
+.bfoo h3 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.bfoo h5 {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  line-height: 2rem;
+  /* margin-left: 1.5rem; */
+}
+.col-sm-6 ul {
+  list-style-type: none;
+}
+.col-sm-6 ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+  font-style: italic;
+}
+.col-sm-6 ul li a:hover {
+  color: crimson;
+}
+.col-75 {
+  padding-left: 2rem;
+  width: 95%;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* @media screen and (max-width: 600px) {
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+.fbox1 #t1 {
+  width: 48%;
+  margin-left: 1rem;
+  letter-spacing: 3px;
+}
+#t1 h3 {
+  font-size: 20px;
+  font-family: New Century Schoolbook, serif;
+  font-weight: 200;
+  color: red;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+.fbox1 #t2 {
+  width: 48%;
+  margin-left: 1rem;
+}
+.fbox3 h2 {
+  font-size: 20px;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  font-weight: 300;
+  color: white;
+  padding-top: 1rem;
+  margin-left: 26rem;
+}
+#t2 h1 {
+  margin-left: 25rem;
+  margin-top: 0rem;
+  color: blue;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#t2 h4 {
+  margin-left: 20rem;
+  margin-top: 2rem;
+  color: #696969;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  #flag {
+    width: 80%;
+    height: 80px;
+  }
+  #flag h2 {
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+  }
+ #flag .rec {
+    height: 40px;
+    width: 150px;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+  }
+  .rec h3 {
+    font-size: 1.2rem;
+    font-family: "Permanent Marker", cursive;
+  }
+  .flexbox1 {
+    max-height: 60vh;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .flexbox1 .fbox {
+    width: 100%;
+    height: 33.3%;
+  }
+  .fbox .smb {
+    text-align: center;
+    height: 18vh;
+  }
+  .fbox h3 {
+    margin-top: 0.2rem;
+  }
+  .flexbox2 {
+    min-height: 240vh;
+    width: 100%;
+  }
+  .flexbox2 .s1 {
+    min-height: 60vh;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .s1 .ss1 {
+    width: 100%;
+    min-height: 30vh;
+    margin: auto;
+    display: flex;
+    box-shadow: none;
+    border-bottom: 1px solid #000;
+  }
+  .ss1 .ib1 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib2 {
+    width: 50%;
+    height: 29vh;
+  }
+  .ss1 .ib3 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib4 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib5 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib6 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib7 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .ib8 {
+    width: 50%;
+    height: 29vh;
+    margin: 0;
+    padding: 0;
+  }
+  .ss1 .one {
+    width: 50%;
+    float: left;
+    min-height: 29vh;
+  }
+  .imgban {
+    margin-top: 1rem;
+    min-height: 30vh;
+  }
+  .imgban h1 {
+    padding-top: 1rem;
+    color: #f00;
+  }
+  .sbbx {
+    margin-top: 2rem;
+    height: 6vh;
+    width: 40%;
+    margin: auto;
+    background-color: black;
+  }
+  .sbbx h2 {
+    letter-spacing: 2px;
+  }
+  .flexbox3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: 70vh;
+    margin-top: 2rem;
+    grid-gap: 0.5rem;
+  }
+  .flexbox3 .susu1 {
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+    min-height: 33vh;
+  }
+  .flexbox3 .susu2 {
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+    min-height: 33vh;
+  }
+  .flexbox3 .susu3 {
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+    min-height: 33vh;
+  }
+  .flexbox3 .susu4 {
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+    min-height: 33vh;
+  }
+  .cbox {
+    position: relative;
+    top: 2rem;
+    height: 45px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5rem;
+  }
+  .cbox h6 {
+    padding-top: 0;
+    text-transform: uppercase;
+  }
+  .conton {
+    width: 80%;
+    min-height: 60vh;
+    margin-bottom: 4rem;
+  }
+  label {
+    padding: 4px 4px 4px 0;
+    display: inline-block;
+    margin: 2px;
+  }
+  .imagebanner {
+    height: 400px;
+    margin-top: 4rem;
+  }
+  .imagebanner h1 {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  input[type="text"] {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+  .fitbox {
+  margin-top: 0.5rem;
+  height: 40px;
+}
+.cbox h6{
+    font-size:1.5rem;
+}
+.sbbx{
+    width:65%;
+    margin:auto;
+}
+.sbbx h2{
+    font-size:1.8rem;
+}
+.fitbox h1{
+    font-size:1.5rem;
+}
+  textarea {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+  input[type="submit"] {
+    padding: 10 40px;
+    margin: auto;
+    width: 60%;
+  }
+  .bfoo h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  .bfoo h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 1rem;
+    font-size: 12px;
+    /* margin-left: 1.5rem; */
+  }
+  .col-sm-6 ul li a {
+    font-size: 12px;
+  }
+}

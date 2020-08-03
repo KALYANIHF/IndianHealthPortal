@@ -1,0 +1,137 @@
+.formsign {
+  height: 150vh;
+  width: 100%;
+  background-color: dimgray;
+}
+.one1 {
+  height: 10vh;
+  background-color: black;
+  position: relative;
+  top: 1rem;
+  width: 20%;
+  margin: auto;
+  border-radius: 3rem;
+}
+.one1 h1 {
+  color: coral;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+  top: 0.4rem;
+}
+.one2 {
+  height: 130vh;
+  background-color: black;
+  position: relative;
+  top: 2.5rem;
+  width: 50%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+.container {
+  padding: 16px;
+  background-color: black;
+  height: 60vh;
+  border: none;
+}
+.btn {
+  height: 10vh;
+  /* border: 1px solid #fff; */
+  margin: auto;
+  width: 80%;
+  position: relative;
+  top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.relbtn {
+  width: 33.3%;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
+  margin: 5px;
+}
+.btn-default {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: darkslategray;
+  color: #fff;
+  padding: 15px 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  left: auto;
+  border: none;
+  border-radius: 2rem;
+}
+.btn-default:hover {
+  color: #000;
+  background-color: #f00;
+}
+.col-1 {
+  margin-top: 1rem;
+  text-align: center;
+  color: coral;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+@media (max-width: 768px) {
+  .one1 {
+    width: 35%;
+    height: 8vh;
+  }
+  .formsign {
+    height: 150vh;
+    width: 100%;
+    background-color: dimgray;
+  }
+  .one1 h1 {
+    color: coral;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .one2 {
+    height: 132vh;
+    background-color: black;
+    position: relative;
+    top: 2.5rem;
+    width: 90%;
+    margin: auto;
+  }
+  .btn {
+    height: 8vh;
+    /* border: 1px solid #fff; */
+    margin: 5px;
+    position: relative;
+    top: 0.2rem;
+    margin: auto;
+    display: flex;
+    width: 99%;
+    flex-direction: row;
+  }
+  .relbtn {
+    width: 33.3%;
+    box-sizing: border-box;
+    /* border: 1px solid #fff; */
+  }
+  .btn-default {
+    padding: 15px 30px;
+  }
+}
